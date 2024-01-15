@@ -12,4 +12,8 @@
 -- | Belmont Cragin         |
 -- | Beverly                |
 
-
+-- Rob's Code
+SELECT neighborhood
+FROM listings
+GROUP BY neighborhood
+ORDER BY neighborhood
