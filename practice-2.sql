@@ -22,4 +22,4 @@
 --Rob's Code
 SELECT URL, accommodates
 FROM listings
-WHERE accommodates = 16
+WHERE accommodates = 16;

@@ -16,3 +16,10 @@
 -- | Burnside               | 10       |
 
 
+
+-- Rob's Code
+SELECT listings.neighborhood, COUNT(*)
+FROM reviews 
+INNER JOIN listings ON listings.id = reviews.listing_id
+GROUP BY listings.neighborhood
+ORDER BY listings.neighborhood

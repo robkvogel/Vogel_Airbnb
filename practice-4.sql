@@ -8,6 +8,6 @@
 
 SELECT COUNT(*)
 FROM listings
-WHERE neighborhood = "Lincoln Park"
+WHERE neighborhood = "Lincoln Park";
 
 -- 272 listings
