@@ -18,11 +18,11 @@
 
 --Rob's Code
 
-SELECT listings.property_type, COUNT(*), Max(reviews.date_reviewed) 
+SELECT listings.property_type, COUNT(*), Max(reviews.date_reviewed)
 FROM listings INNER JOIN reviews ON listings.id = reviews.listing_id
 GROUP BY listings.property_type
-ORDER BY listings.property_type;
-
+ORDER BY listings.property_type
+;
 --Fetching data to see structure and learn how to take most recent
 /*SELECT listing_id, MAX(date_reviewed) FROM reviews
 WHERE listing_id = 50104464
